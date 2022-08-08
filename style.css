@@ -1,0 +1,60 @@
+:root {
+    --green: #5f9341;
+    --dark-green: #306020;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    min-width: 400px;
+}
+
+input {
+    margin-block: 5px;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid var(--green);
+}
+
+button {
+    background: var(--green);
+    font-weight: bold;
+    color: white;
+    padding: 10px;
+    padding-inline: 20px;
+    border: 1px solid #00000000;
+    transform: all 0.5s ease-in-out;
+}
+
+button:hover {
+    background: var(--dark-green);
+}
+
+#delete-btn {
+    background: white;
+    color: var(--green);
+    border-color: var(--green);
+}
+
+#delete-btn:hover {
+   color: var(--dark-green);
+   border-color: var(--dark-green);
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+li {
+    margin-block: 2.5px;
+}
+
+li > a {
+    color: var(--green);
+}
